@@ -62,6 +62,59 @@ dicionario = {"chave1": "valor1", "chave2": "valor2"}
 conjunto = {1, 2, 3, 4, 5}
 ```
 
+### Python - Estrutura Sequencial
+É a execução de instruções de maneira linear, uma após a outra, na ordem em que aparecem no código.
+
+**Características da Estrutura Sequencial**
+
+1. Execução Linear: As instruções são executadas uma após a outra, de cima para baixo.
+2. Sem Desvios ou Repetições: Não há saltos (como loops ou condicionais) ou repetições de blocos de código.
+3. Simples e Direta: Ideal para operações simples e diretas onde a ordem das operações é importante.
+
+### Python - Atribuição Múltipla
+
+Permite a atribuição de valores a várias variáveis ao mesmo tempo em uma única linha de código.
+```
+# Exemplo 1
+a, b, c = 1, 2, 3
+print(a)  # Saída: 1
+print(b)  # Saída: 2
+print(c)  # Saída: 3
+
+# Exemplo 2
+x, y = 5, 10
+x, y = y, x
+print(x)  # Saída: 10
+print(y)  # Saída: 5
+```
+
+### Python - Entrada de Dados
+
+- a função `input()` é utilizado para receber dados digitados pelo usuário;
+- Os dados são armazenados em variáveis;
+- Retorna os dados informados como sendo do tipo string;
+```
+# Solicita ao usuário que digite algo
+nome = input("Digite seu nome: ")
+
+# Exibe a entrada do usuário
+print("Olá, " + nome + "!")
+```
+
+Por padrão, `input()` retorna os dados como uma string. Se você precisa de um tipo diferente (como um número inteiro ou um número de ponto flutuante), você precisa converter a string. Aqui estão alguns exemplos:
+
+```
+x = int(input("Digite o primeiro número: "))
+y = int(input("Digite o segundo número: "))
+print("Soma: ", + x + y)
+```
+
+### Python - Operadores
+
+
+
+
+
 
 
 
