@@ -11,7 +11,7 @@ britânico Monty Python;
 ### Python - Instalação
 
 - Usaremos a versão mais recente do interpretador do Python;
-- No windows, baixe o [`Python`](#[Python](https://www.python.org/downloads/));
+- No windows, baixe o [Python](https://www.python.org/downloads/)
 - Abra um terminal e digite python (windows) ou python3 (linux). Este comando retornará a versão do Python que está instalada em seu sistema.;
 - Deve aparecer algo do tipo;
 ![](/assets/img/python-versao.PNG "")
@@ -36,7 +36,7 @@ britânico Monty Python;
 - dict - Dicionários (mutáveis, pares de chave-valor)
 - set - Conjuntos (mutáveis, não ordenados, elementos únicos)
 
-```
+```py
 # Tipo int
 numero_inteiro = 10
 
@@ -74,7 +74,7 @@ conjunto = {1, 2, 3, 4, 5}
 ### Python - Atribuição Múltipla
 
 Permite a atribuição de valores a várias variáveis ao mesmo tempo em uma única linha de código.
-```
+```py
 # Exemplo 1
 a, b, c = 1, 2, 3
 print(a)  # Saída: 1
@@ -93,7 +93,8 @@ print(y)  # Saída: 5
 - a função `input()` é utilizado para receber dados digitados pelo usuário;
 - Os dados são armazenados em variáveis;
 - Retorna os dados informados como sendo do tipo string;
-```
+  
+```py
 # Solicita ao usuário que digite algo
 nome = input("Digite seu nome: ")
 
@@ -103,13 +104,47 @@ print("Olá, " + nome + "!")
 
 Por padrão, `input()` retorna os dados como uma string. Se você precisa de um tipo diferente (como um número inteiro ou um número de ponto flutuante), você precisa converter a string. Aqui estão alguns exemplos:
 
-```
+```py
 x = int(input("Digite o primeiro número: "))
 y = int(input("Digite o segundo número: "))
 print("Soma: ", + x + y)
 ```
 
 ### Python - Operadores
+| Operador  | Python        |
+| :----:    | :----       |
+| =         | atribuição    |
+| +         | soma          |
+| -         | subtração     |
+| *         | multiplicação |
+| **        | exponenciação |
+| /       | divisão (real) |
+| //       | divisão (inteira) |
+| %       | resto da divisão de x por y |
+
+### Python - Operadores Lógicos
+| Operador | Python |
+| :----:   | :----: |
+| E        | and    |
+| OU       | or     |
+| =        | ==     |
+| !=       | !=     |
+
+### Python - Estrutura Condicional Simples
+É usada para executar um bloco de código se uma determinada condição for verdadeira.
+
+### Python - Estrutura Condicional Composta
+É usada para executar um bloco de código se uma condição for verdadeira e outro bloco de código se a condição for falsa.
+
+### Python - Estruturas de Repetição - FOR
+O loop for é usado para iterar sobre uma sequência (como uma lista, tupla, string, ou um objeto iterável) e executar um bloco de código para cada item nessa sequência.
+
+### Python - Estruturas de Repetição - WHILE
+O loop while é usado para executar um bloco de código repetidamente enquanto uma condição especificada for verdadeira. 
+
+`range` é uma função que gera uma sequência de números. É comumente usada em loops, especialmente em loops for, para iterar sobre uma sequência de números. A função range pode ser usada de várias maneiras, dependendo do número de argumentos fornecidos.
+
+
 
 
 
