@@ -94,6 +94,7 @@ elif(media >= 7) and (media <= 10):
   print("Aprovado")
 """
 
+"""
 # Estruturas de Repetição - FOR
 for i in range(10):
   print(i)
@@ -104,9 +105,17 @@ y = 10
 while (x < y):
   print("Valor de y", y)
   y = y - 2
+"""
 
 
 
+idade = int(input("Digite uma idade: "))
+while(idade < 0):
+  idade = int(input("Idade Inválida. Digite a idade novamente: "))
+print("Idade Válida")
+  
+  
+    
 
 
 
