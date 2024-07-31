@@ -108,11 +108,98 @@ while (x < y):
 """
 
 
-
+"""
 idade = int(input("Digite uma idade: "))
 while(idade < 0):
   idade = int(input("Idade Inválida. Digite a idade novamente: "))
 print("Idade Válida")
+"""
+
+"""
+x = int(input("Digite o primeiro número: "))
+y = int(input("Digite o segundo número: "))
+
+if(x > y):
+  x,y = y,x
+for i in range(x,y):
+  print(i)
+"""
+
+"""
+lista1 = []
+lista2 = [1, 2, 'Python', [1, 2, 3]]
+
+print(type(lista1))
+print(type(lista2))
+"""
+
+# Estruturas de Dados - Lista
+
+# max() - # min() - # sum() - # len()
+# lista.append() - lista.insert() - lista.pop() - lista.remove()
+# lista.sort() - lista.reverse()
+
+"""
+lista = [1, 2, 3, 10, 25]
+
+print("Maior elemento da lista ", max(lista)) 
+print("Menor elemento da lista ", min(lista)) 
+print("Soma dos elementos da lista ", sum(lista)) 
+print("Quantidade de elementos da lista ", len(lista)) 
+
+print("Verificando elementos da lista...")
+print(34 in lista)
+print(10 in lista)
+print("------------------")
+
+for elemento in lista:
+  print(elemento)
+"""
+
+"""
+lista = []
+print("Adicionando intens no final da lista")
+lista.append('Midiã')
+lista.append('Teste')
+print(lista)
+
+print("Adicionando itens em uma posição especifica")
+lista.insert(1, 'Lima')
+print(lista)
+
+print("Removendo o último elemento da lista:", lista.pop())
+print("Removendo o elemento de índice 1", lista.pop(1))
+print("Removendo a ocorrencia do nome Midiã")
+lista.remove("Midiã")
+print(lista)
+
+lista_dois = [10, 12, 30, 15, 9, 12]
+lista_dois.sort()
+print("Lista Ordenada", lista_dois)
+
+lista_dois.reverse()
+print("Após inverter a lista", lista_dois)
+
+"""
+
+frase = "Exemplo do uso do split em Python"
+lista = frase.split()
+print(type(lista))
+print(lista)
+
+data = "31/07/2024"
+print(data.split("/"))
+
+dia, mes, ano = data.split("/")
+print(dia, mes, ano)
+lista_meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio"]
+data = input("Digite a data: ")
+dia, mes, ano = data.split("/")
+nome_mes = lista_meses[int(mes)-1]
+print(dia, "de", nome_mes, "de", ano)
+
+
+
   
   
     
