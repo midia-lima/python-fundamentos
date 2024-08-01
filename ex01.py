@@ -107,7 +107,6 @@ while (x < y):
   y = y - 2
 """
 
-
 """
 idade = int(input("Digite uma idade: "))
 while(idade < 0):
@@ -179,9 +178,8 @@ print("Lista Ordenada", lista_dois)
 
 lista_dois.reverse()
 print("Após inverter a lista", lista_dois)
-
 """
-
+"""
 frase = "Exemplo do uso do split em Python"
 lista = frase.split()
 print(type(lista))
@@ -197,28 +195,31 @@ data = input("Digite a data: ")
 dia, mes, ano = data.split("/")
 nome_mes = lista_meses[int(mes)-1]
 print(dia, "de", nome_mes, "de", ano)
+"""
+
+# Estruturas de Dados - Tupla
+tupla = (1, 2, 78, 64, 3)
 
 
+# Estruturas de Dados - Dicionário
+alunos = {3035:"Alexandre", 8965:"Maria", 7674:"Carlos"}
+print("Chaves do dicionário: ", alunos.keys())
+print("Valores do dicionário: ", alunos.values())
 
-  
-  
-    
+for chave in alunos:
+  print("Chave: ", chave, "Valor ", alunos[chave])
 
+for RA, nome in alunos.items():
+  print("RA:", RA, "nome", nome)  
 
+contatos = {"Alexandre":"948993658", "Maria":"985654789",}
+print(contatos["Maria"])
+print(contatos.get("Romeu", "Contato não encontrato"))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+contatos_exemplo = {
+  "Alexandre": "948996958",
+  "Maria": {"Telefone":"948993658", "Endereço":"Rua Minas Gerais, 351" },
+  "Silvia": "936584265"
+}
+print(contatos_exemplo["Maria"])
+print(contatos_exemplo["Maria"]["Telefone"])

@@ -144,21 +144,15 @@ O loop while é usado para executar um bloco de código repetidamente enquanto u
 
 `range` é uma função que gera uma sequência de números. É comumente usada em loops, especialmente em loops for, para iterar sobre uma sequência de números. A função range pode ser usada de várias maneiras, dependendo do número de argumentos fornecidos.
 
-### Python - Estruturas de Dados - Lista
+
+### Python - Estruturas de Dados
 
 - Lista
 - Tupla
 - Dicionário
 
+### Python - Estruturas de Dados - Lista
 
+### Python - Estruturas de Dados - Tupla
 
-
-
-
-
-
-
-
-
-
-  
+### Python - Estruturas de Dados - Dicionário
