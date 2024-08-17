@@ -142,7 +142,7 @@ O loop for é usado para iterar sobre uma sequência (como uma lista, tupla, str
 ### Python - Estruturas de Repetição - WHILE
 O loop while é usado para executar um bloco de código repetidamente enquanto uma condição especificada for verdadeira. 
 
-`range` é uma função que gera uma sequência de números. É comumente usada em loops, especialmente em loops for, para iterar sobre uma sequência de números. A função range pode ser usada de várias maneiras, dependendo do número de argumentos fornecidos.
+`range()` é uma função que gera uma sequência de números. É comumente usada em loops, especialmente em loops for, para iterar sobre uma sequência de números. A função range pode ser usada de várias maneiras, dependendo do número de argumentos fornecidos.
 
 
 ### Python - Estruturas de Dados
@@ -152,7 +152,40 @@ O loop while é usado para executar um bloco de código repetidamente enquanto u
 - Dicionário
 
 ### Python - Estruturas de Dados - Lista
+- Listas são usadas para armazenar vários itens em uma única variável
+- As listas são criadas usando colchetes
+
+```py
+loteria = [3, 42, 12, 19, 30, 59]
+loteria
+len(loteria)
+```
 
 ### Python - Estruturas de Dados - Tupla
+- Tuplas são usadas para armazenar vários itens em uma única variável
+- Tuplas são escritas com colchetes
+  
+```py
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+```
 
 ### Python - Estruturas de Dados - Dicionário
+- Dicionários são usados ​​para armazenar valores de dados em pares chave:valor
+- Um dicionário é uma coleção ordenada, mutável e que não permite duplicatas
+- Os dicionários são escritos com chaves e têm chaves e valores:
+
+```py
+participante = {'nome': 'Rebeca', 'pais': 'Brasil', 'numeros_favoritos': [7, 42, 92]}
+print(participante)
+```
+
+### Python - Funções
+
+```py
+def boas_vindas():
+  print('Olá!')
+  print('Seja bem-vinda!')
+
+```
+
